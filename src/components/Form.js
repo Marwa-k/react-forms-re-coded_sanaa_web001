@@ -26,7 +26,7 @@ class Form extends React.Component {
         <input type="text" name="lastName" onChange={event => this.handleLastNameChange(event)} value={this.state.lastName} />
       </form>
 
-      
+
 
     )
   }
