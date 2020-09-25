@@ -21,11 +21,12 @@ class Form extends React.Component {
   render() {
      const { firstName, lastName } = this.props.formData;
     return (
+        <div>
       <form>
         <input type="text" name="firstName" onChange={event => this.handleFirstNameChange(event)} value={this.state.firstName} />
         <input type="text" name="lastName" onChange={event => this.handleLastNameChange(event)} value={this.state.lastName} />
       </form>
-      <div>
+    
       <form>
         <input
           type="text"
